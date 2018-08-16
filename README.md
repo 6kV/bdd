@@ -20,3 +20,16 @@
  
  Une classe qui contient des given ou when ou then est une classe Stage
  SELF c'est un alias de this() : permet à Jgiven de chainer les appels au niveau de la dsl
+ 
+ @ProvidedScenarioState : état partagé entre le given when then
+ 
+ @ScenarioRule
+ @BeforeStage
+ @AfterStage
+ 
+ @ExpectedScenarioStage
+ 
+ @Quoted
+ @Table
+ 
+ currentStep.addAttachement
